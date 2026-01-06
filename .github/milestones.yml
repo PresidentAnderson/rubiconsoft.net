@@ -90,7 +90,7 @@ milestones:
     state: open
 
 # Instructions for using this file:
-# 1. Use GitHub CLI to create milestones: gh api repos/:owner/:repo/milestones -f title="Epic: Title" -f description="Description" -f state="open"
+# 1. Use GitHub CLI to create milestones: gh api repos/PresidentAnderson/rubiconsoft.net/milestones -f title="Epic: Title" -f description="Description" -f state="open"
 # 2. Or use github-milestone-sync tool
 # 3. Or manually create these milestones through GitHub UI
 # 4. Associate issues with milestones using the GitHub UI or API
