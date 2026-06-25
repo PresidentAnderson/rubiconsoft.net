@@ -1,0 +1,129 @@
+# GitHub Labels Configuration
+# This file defines the labels that should be present in the repository
+# Tools like github-label-sync or GitHub CLI can be used to sync these labels
+
+# Type Labels
+- name: "type: bug"
+  color: "d73a4a"
+  description: "Something isn't working"
+
+- name: "type: enhancement"
+  color: "a2eeef"
+  description: "New feature or request"
+
+- name: "type: documentation"
+  color: "0075ca"
+  description: "Improvements or additions to documentation"
+
+- name: "type: maintenance"
+  color: "fbca04"
+  description: "Maintenance and refactoring tasks"
+
+- name: "type: question"
+  color: "d876e3"
+  description: "Further information is requested"
+
+# Priority Labels
+- name: "priority: critical"
+  color: "b60205"
+  description: "Critical priority - needs immediate attention"
+
+- name: "priority: high"
+  color: "d93f0b"
+  description: "High priority"
+
+- name: "priority: medium"
+  color: "fbca04"
+  description: "Medium priority"
+
+- name: "priority: low"
+  color: "0e8a16"
+  description: "Low priority"
+
+# Status Labels
+- name: "status: blocked"
+  color: "b60205"
+  description: "Blocked by other issues or external factors"
+
+- name: "status: in progress"
+  color: "0052cc"
+  description: "Currently being worked on"
+
+- name: "status: review needed"
+  color: "fbca04"
+  description: "Needs review"
+
+- name: "status: on hold"
+  color: "d4c5f9"
+  description: "On hold for now"
+
+# Epic Labels
+- name: "epic"
+  color: "3e4b9e"
+  description: "Epic - large feature or initiative"
+
+- name: "epic: infrastructure"
+  color: "5319e7"
+  description: "Infrastructure and DevOps epic"
+
+- name: "epic: frontend"
+  color: "1d76db"
+  description: "Frontend development epic"
+
+- name: "epic: backend"
+  color: "0e8a16"
+  description: "Backend development epic"
+
+- name: "epic: design"
+  color: "e99695"
+  description: "Design and UX epic"
+
+# Size/Effort Labels
+- name: "size: XS"
+  color: "c2e0c6"
+  description: "Extra small effort"
+
+- name: "size: S"
+  color: "bfe5bf"
+  description: "Small effort"
+
+- name: "size: M"
+  color: "fef2c0"
+  description: "Medium effort"
+
+- name: "size: L"
+  color: "fad8c7"
+  description: "Large effort"
+
+- name: "size: XL"
+  color: "f9d0c4"
+  description: "Extra large effort"
+
+# Special Labels
+- name: "good first issue"
+  color: "7057ff"
+  description: "Good for newcomers"
+
+- name: "help wanted"
+  color: "008672"
+  description: "Extra attention is needed"
+
+- name: "duplicate"
+  color: "cfd3d7"
+  description: "This issue or pull request already exists"
+
+- name: "invalid"
+  color: "e4e669"
+  description: "This doesn't seem right"
+
+- name: "wontfix"
+  color: "ffffff"
+  description: "This will not be worked on"
+
+- name: "dependencies"
+  color: "0366d6"
+  description: "Pull requests that update a dependency file"
+
+- name: "security"
+  color: "ee0701"
+  description: "Security related issue"
